@@ -1,0 +1,13 @@
+Emmet: It is boilerplate code which will be provided. If we write a shortcut for a particular code, then the complete basic template appears.
+
+Difference between library and framework: Library - we can use small portions of the predefined code in our code. Framework - we need to follow the complete template and modify our code based on that framework.
+
+CDN (Content Delivery Network): The library is hosted on another server, and we just use the library without importing it, making it very fast and efficient.
+
+Why is React known as React: Whenever DOM manipulations are done, it reacts and modifies accordingly. Beacuse it reacts to changes and has reusable code
+
+Cross-origin in script tag: Cross-origin is used to access images, videos, stylesheets from one web server to another. Sometimes, due to CORS policy, the access is blocked, and we won't be able to access the data.
+
+Difference between React and ReactDOM: React: core functions needed. ReactDOM: contains functions needed for DOM manipulations of the browser.
+
+Difference between react.development.js and react.production.js files in CDN: The development version contains additional warnings and debugging information, while the production version is optimized for performance.
