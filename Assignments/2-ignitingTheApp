@@ -1,0 +1,30 @@
+1. What is NPM: NPM acts as node package manager which is repository for a lot of packages
+
+2. WHat is Parcel/Webpack. Why do we need it: They are bundlers which are used to optimize our code so that they can be prod ready. 
+
+3. What is parcel-cache:  Parcel-cache generally refers to the caching system used by the Parcel bundler to speed up subsequent builds by storing previously processed data.
+
+4. npx: It is used for executing pacakge
+
+5. dependenices vs devdependencies: devdepen is used for code during development 
+
+6. Treeshaking: It is used to removed unused code from project
+
+7. HMR: Hot Module Replacement: Only changes what part of code has been updated live code changes to app
+
+8. Parcel : Treeshakking- Remove unwanted code, File Tracking system- eeps track of changes made, Display error in preety format, Remove console.logs/comments, Use https, 
+
+9. .gitignore: It is used to ignore the files and stop them from comiiting to git. The files which can be recreated should be put in .gitignore
+
+10. package.json: has all the dependencies used with approx versions
+package-lock.json:  has all the dependencies used with exact versions
+
+11. Why should you not modify pacage-lock.json: Beacuse it mentions the eaxct version of dependency being used. It can cause problems later on when deployed
+
+12. what is nodemodules: It contains the actual code for the dependencies installed. It shouldn't be pushed to git as it can be recreated by package.json and lock.json files
+
+13. What is browserlist: It mentions the versions/broswers where our app will work perfectly
+
+14. ^ : caret : upadte minor and patch versions
+~ : tilde : update patch versions
+
