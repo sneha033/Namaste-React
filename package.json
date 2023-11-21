@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "jest"
+    "test": "parcel index.html"
   },
   "author": "",
   "license": "ISC",
